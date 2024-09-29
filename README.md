@@ -22,6 +22,8 @@ This repository provides the necessary codes for the evaluation and simulation o
 
 - **Trained Models**: Pre-trained models and simulation data are provided for easy evaluation and testing purposes, which are in the result directory.
 
+- **Article**: The published article is included in the paper directory.
+
 We encourage you to explore this repository and contribute to this aspect.
 
 Thank you for your interest in the HP-RDTS repository. 
