@@ -1,35 +1,33 @@
 # HP-RDTS
 
-This repository introduces a high-performance Raman distributed temperature sensing (RDTS) system that leverages a 1D deep convolutional neural network (1DDCNN) to significantly reduce temperature uncertainty.
+Welcome to the HP-RDTS repository, which presents a high-performance Raman Distributed Temperature Sensing (RDTS) system utilizing a 1D Deep Convolutional Neural Network (1DDCNN) to significantly reduce temperature uncertainty.
 
 ## Key Features
 
-- **1D-CNN**:  We utilize a 1D Convolutional Neural Network (CNN) architecture to enhance the signal-to-noise ratio (SNR) and reduce temperature uncertainty in the temperature sensing algorithm. This allows for more accurate temperature measurements along the fiber.
+- **1D-CNN**: Our architecture leverages a 1D Convolutional Neural Network to enhance the signal-to-noise ratio (SNR), allowing for more accurate temperature measurements along the fiber.
 
-- **Improved Signal-to-Noise Ratio (SNR):** The 1DDCNN effectively removes noise from the SpRS signal, improving the SNR and leading to more accurate temperature measurements.
+- **Enhanced Signal-to-Noise Ratio**: The 1DDCNN effectively filters noise from the SpRS signal, resulting in improved SNR and precision.
 
-- **Improved Accuracy in Long-Distance Sensing:** The 1DDCNN maintains its denoising effectiveness even with signal attenuation, enhancing accuracy in long-distance temperature sensing.
+- **Long-Distance Accuracy**: The 1DDCNN preserves its denoising capabilities even with signal attenuation, enhancing accuracy in long-distance temperature sensing.
 
-- **Reduced Complexity and Cost:** The 1DDCNN implementation is relatively simple, eliminating the need for specialized optical fibers or pulse coding techniques, which reduces system complexity and cost.
+- **Reduced Complexity and Cost**: This implementation simplifies the system by eliminating the need for specialized optical fibers or complex pulse coding techniques, thereby lowering overall costs.
 
 ## Repository Contents
 
-This repository provides the necessary codes for the evaluation and simulation of the proposed scheme. It includes:
+This repository includes essential codes for evaluating and simulating our proposed method, featuring:
 
-- **Training and Testing Codes**: You will find model architecture, and both training and testing codes in net directory.
+- **Training and Testing Codes**: Find the model architecture and training/testing scripts in the `net` directory.
 
-- **RDTS Model**: We have included the code for creating RDTS model for evaluation of our method in data directory.
+- **RDTS Model**: Code for creating the RDTS model is available in the `data` directory for method evaluation.
 
-- **Trained Models**: Pre-trained models and simulation data are provided for easy evaluation and testing purposes, which are in the result directory.
+- **Trained Models**: Pre-trained models and simulation data for easy evaluation and testing are located in the `result` directory.
 
-- **Article**: The published article is included in the paper directory.
+- **Research Paper**: The published paper is provided in the `paper` directory for your reference.
 
-We encourage you to explore this repository and contribute to this aspect.
+We invite you to explore this repository and contribute to advancing this research area.
 
-Thank you for your interest in the HP-RDTS repository. 
+For any questions or further assistance, please feel free to reach out.
 
-If you have any questions or need further assistance, don't hesitate to reach out.
+Contact: Dr. Hao Wu (wuhaoboom@hust.edu.cn)
 
-Contact: Hao Wu (wuhaoboom@hust.edu.cn)
-
-Best regards. 
+Best regards.
