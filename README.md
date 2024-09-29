@@ -1,6 +1,6 @@
-# HP-RDTS
+# 1DDCNN：OTDR&DTS denoise
 
-Welcome to the HP-RDTS repository, which presents a high-performance Raman Distributed Temperature Sensing (RDTS) system utilizing a 1D Deep Convolutional Neural Network (1DDCNN) to significantly reduce temperature uncertainty.
+Welcome to the OTDR&DTS denoise repository, which presents a 1D Deep Convolutional Neural Network (1DDCNN) to significantly reduce noise in distributed optical fiber sensing data.
 
 ## Key Features
 
@@ -18,7 +18,7 @@ This repository includes essential codes for evaluating and simulating our propo
 
 - **Training and Testing Codes**: Find the model architecture and training/testing scripts in the `net` directory.
 
-- **RDTS Model**: Code for creating the RDTS model is available in the `data` directory for method evaluation.
+- **Data sample**: Code for creating dataset is available in the `data` directory for method evaluation.
 
 - **Trained Models**: Pre-trained models and simulation data for easy evaluation and testing are located in the `result` directory.
 
