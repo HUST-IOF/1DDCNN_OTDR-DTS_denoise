@@ -1,4 +1,4 @@
-# 1DDCNN：OTDR&DTS denoise
+# 1DDCNN：OTDR&DTS Denoise
 
 Welcome to the OTDR&DTS denoise repository, which presents a 1D Deep Convolutional Neural Network (1DDCNN) to significantly reduce noise in distributed optical fiber sensing data.
 
