@@ -4,7 +4,7 @@ Welcome to the OTDR&DTS denoise repository, which presents a 1D Deep Convolution
 
 ## Key Features
 
-- **1D-CNN**: Our architecture leverages a 1D Convolutional Neural Network to enhance the signal-to-noise ratio (SNR), allowing for more accurate temperature measurements along the fiber.
+- **1D-CNN Architecture**: Our architecture leverages a 1D Convolutional Neural Network to enhance the signal-to-noise ratio (SNR), allowing for more accurate temperature measurements along the fiber.
 
 - **Enhanced Signal-to-Noise Ratio**: The 1DDCNN effectively filters noise from the SpRS signal, resulting in improved SNR and precision.
 
@@ -18,7 +18,7 @@ This repository includes essential codes for evaluating and simulating our propo
 
 - **Training and Testing Codes**: Find the model architecture and training/testing scripts in the `net` directory.
 
-- **Data sample**: Code for creating dataset is available in the `data` directory for method evaluation.
+- **Data Generation**: Code for creating dataset is available in the `data` directory for method evaluation.
 
 - **Trained Models**: Pre-trained models and simulation data for easy evaluation and testing are located in the `result` directory.
 
